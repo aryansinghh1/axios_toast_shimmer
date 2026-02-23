@@ -4,7 +4,7 @@ import { showError,showSuccess,showInfo } from "../utils/toast";
 
 export default function useUser() {
   const [users, setUsers] = useState([]);
-  const [isLoading, setIsLoading] = useState([false]);
+  const [isLoading, setIsLoading] = useState(false);
   useEffect(() => {
     async function fetchUsers() {
       setIsLoading(true);
