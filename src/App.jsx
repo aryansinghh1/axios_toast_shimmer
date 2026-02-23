@@ -18,7 +18,7 @@ export default function App() {
                 height: 30,
                 width: 300,
                 marginBottom: 10,
-                background: "linear-gradient(to right, #eff1f3 4%, #e2e2e2 25%, #eff1f3 36%)",
+                background: "linear-gradient(to right, #eff1f3 4%, #e2e2e2 25%, #6383a3 36%)",
                 backgroundSize: "1000px 100%",
                 borderRadius: 4,
                 animation: "shimmer 2s infinite linear",
