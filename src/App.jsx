@@ -8,7 +8,6 @@ export default function App() {
       <Toaster position="top-right" />
       <h1>Axios Instance Demo + Toasts + Loading skeleton</h1>
       <h3>User List:</h3>
-
       {isLoading ? (
         <div>
           {[1, 2, 3, 4, 5].map((i) => (
